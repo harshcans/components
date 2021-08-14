@@ -9,11 +9,11 @@
 .daimond::before{
   content: "";
   position:absolute;
-  border-color: transparent;
-  border-top-color: #fafafa;
   border-style: solid;
+  border-color: transparent;
+  border-width: 75px 55px 0 55px;
+  border-top-color: #fafafa;
   top:30px;
   left:-30px;
-  border-width: 75px 55px 0 55px;
 }
   
