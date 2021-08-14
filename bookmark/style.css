@@ -1,0 +1,16 @@
+body {
+        display: grid;
+        place-items: center;
+        background: rgba(0, 0, 0, 0.87);
+        height: 70vh;
+        justify-content: center;
+      }
+
+.bookmark{
+    width: 0;
+    height: 120px;
+    border: 60px solid #ca3c3c;
+    border-top: 0;
+    border-bottom: 36px solid transparent;
+}
+
