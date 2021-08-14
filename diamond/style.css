@@ -1,0 +1,19 @@
+.diamond{
+  width:50px;
+  position: relative;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 0 30px 30px 30px;
+  border-bottom-color: #fafafa;
+}
+.daimond::before{
+  content: "";
+  position:absolute;
+  border-color: transparent;
+  border-top-color: #fafafa;
+  border-style: solid;
+  top:30px;
+  left:-30px;
+  border-width: 75px 55px 0 55px;
+}
+  
