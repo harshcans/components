@@ -6,7 +6,7 @@
   border-width: 0 30px 30px 30px;
   border-bottom-color: #fafafa;
 }
-.diamond::before{
+.diamond:before{
   content: "";
   position:absolute;
   border-style: solid;
